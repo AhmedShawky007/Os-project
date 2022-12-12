@@ -11,18 +11,6 @@ public class Main {
         ExecutorService application = Executors.newCachedThreadPool();
 
         Flight flight = new SynchronizedFlight(15);
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
         application.execute(new Writer(flight));
         application.execute(new Writer(flight));
         application.execute(new Writer(flight));
@@ -32,38 +20,6 @@ public class Main {
         application.execute(new Reader(flight));
         application.execute(new Reader(flight));
         application.execute(new Reader(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
-
 
 
 

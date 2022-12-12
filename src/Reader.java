@@ -1,4 +1,5 @@
 
+import java.io.PrintWriter;
 import java.util.Random;
 
 public class Reader implements Runnable {
@@ -26,10 +27,19 @@ public class Reader implements Runnable {
 
 
     public static void displaySeats(Client[] arr) {
-        System.out.printf("\n operation: %16s | seats: ", "queryReservation");
+        FileManager FManger = new FileManager();
+         final String DisplayFileName = "Display.txt";
+        System.out.printf( "\n operation: queryReservation | seats: " );
+        FManger.Write(  "\n operation: queryReservation | seats: " , DisplayFileName , true);
         for (int i=0;i<arr.length;i++) {
             System.out.printf("[%d|%s]", i, (arr[i] == null) ? "null": arr[i]);
+            String a;
+            if (arr[i] == null)  a ="null"; else a =  arr[i].toString();
+            String ss =  "["  +   i  +   "|"   + a+ "]";
+            FManger.Write(  ss , DisplayFileName , true);
         }
-        System.out.printf("[%s|%s]", "seatNo", "clientNo");
+        System.out.printf("[ seatNo | clientNo ]");
+
+        FManger.Write("[ seatNo | clientNo ]", DisplayFileName , true);
     }
 }

@@ -1,0 +1,224 @@
+
+ operation:makeReservation|seatNo:13
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:10
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|1][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|1][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:6
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|2][7|null][8|null][9|null][10|1][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:7
+ operation:makeReservation|seatNo:7
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|2][7|3][8|null][9|null][10|1][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:2
+ operation:makeReservation|seatNo:10
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|null][5|null][6|2][7|3][8|null][9|null][10|1][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:5
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|null][9|null][10|1][11|null][12|null][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:5
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:6
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:12
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|null][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|null][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:0
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|null][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|null][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|null][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:8
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|null][4|null][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:3
+ operation:makeReservation|seatNo:6
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|null][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|null][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:8
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:4
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:5
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:8
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|null][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:3
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:3
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:11
+ operation: queryReservation | seats: [0|11][1|null][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:1
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:13
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:0
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|null][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:9
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:6
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:9
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:2
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:0
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:1
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:12
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:11
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:4
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:4
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:12
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:11
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:10
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:12
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|null][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:14
+ operation:makeReservation|seatNo:14
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:0
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:4
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:2
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:7
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:9
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:10
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:3
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:14
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:1
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:9
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:2
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:14
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|0][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:1
+You can't choose it. You must choose another seat
+ operation:makeReservation|seatNo:7
+You can't choose it. You must choose another seat
+ operation:cancelReservation|seatNo:13
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|1][11|21][12|10][13|null][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:10
+ operation:makeReservation|seatNo:13
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|null][11|21][12|10][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|null][11|21][12|10][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:12
+ operation:makeReservation|seatNo:13
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:8
+You can't choose it. You must choose another seat
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|2][7|3][8|12][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:6
+ operation:cancelReservation|seatNo:7
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|13][4|16][5|7][6|null][7|null][8|12][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:8
+ operation:makeReservation|seatNo:5
+You can't choose it. You must choose another seat
+ operation:cancelReservation|seatNo:5
+ operation:cancelReservation|seatNo:3
+ operation: queryReservation | seats: [0|11][1|22][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:10
+ operation:cancelReservation|seatNo:5
+ operation:cancelReservation|seatNo:0
+ operation: queryReservation | seats: [0|null][1|22][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:8
+ operation: queryReservation | seats: [0|null][1|22][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|22][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|21][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:5
+ operation:cancelReservation|seatNo:11
+ operation: queryReservation | seats: [0|null][1|22][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|null][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|22][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|null][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:1
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|null][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:6
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|null][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:makeReservation|seatNo:11
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:6
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:6
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|16][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:4
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|null][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|5][3|null][4|null][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:7
+ operation:cancelReservation|seatNo:2
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:3
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|25][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:9
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:0
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:0
+ operation:cancelReservation|seatNo:8
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:3
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|55][14|39][ seatNo | clientNo ]
+ operation:cancelReservation|seatNo:13
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|null][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|null][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|null][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|null][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|null][14|39][ seatNo | clientNo ]
+ operation: queryReservation | seats: [0|null][1|null][2|null][3|null][4|null][5|null][6|null][7|null][8|null][9|null][10|null][11|59][12|null][13|null][14|39][ seatNo | clientNo ]

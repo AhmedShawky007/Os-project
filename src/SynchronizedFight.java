@@ -50,7 +50,14 @@ class SynchronizedFlight implements Flight {
         try {
             if (seats[seatNo]==null)
                 seats[seatNo] = client;
-        else System.out.println("\nYou can't choose it. You must choose another seat");
+        else {
+                System.out.println("\nYou can't choose it. You must choose another seat");
+                FileManager FManger = new FileManager();
+                final String DisplayFileName = "Display.txt";
+                FManger.Write(  "\nYou can't choose it. You must choose another seat"  , DisplayFileName , true);
+
+
+            }
 
         } finally {
             writeLock.unlock();

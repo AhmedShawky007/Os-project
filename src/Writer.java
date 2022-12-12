@@ -49,5 +49,8 @@ public class Writer implements Runnable {
 
     private void displayState(String operation, int seatNo) {
         System.out.printf("\n operation: %16s | seatNo: %d ", operation, seatNo);
+        FileManager FManger = new FileManager();
+        final String DisplayFileName = "Display.txt";
+        FManger.Write(  "\n operation:"+ operation + "|" + "seatNo:"  + seatNo  , DisplayFileName , true);
     }
 }
