@@ -10,16 +10,14 @@ public class Main {
 
         ExecutorService application = Executors.newCachedThreadPool();
 
-        Flight flight = new SynchronizedFlight(15);
-        application.execute(new Writer(flight));
-        application.execute(new Writer(flight));
+        Flight flight = new SynchronizedFlight(5);
         application.execute(new Writer(flight));
         application.execute(new Writer(flight));
 
+
         application.execute(new Reader(flight));
         application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
-        application.execute(new Reader(flight));
+
 
 
 
